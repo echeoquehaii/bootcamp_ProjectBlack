@@ -1,0 +1,188 @@
+/*  
+INDICAZIONI
+
+    Color: #2B9DF4
+
+    Font: Orbitron, Jura
+
+    GOOGLE FONTS
+
+    font-family: 'Jura', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Orbitron', sans-serif; 
+*/
+
+
+body {
+    background-color: black;
+
+}
+
+.navb {
+    background-color: black;
+    border-bottom: solid;
+    border-width: ;
+    border-color: rgb(199, 199, 199);
+    text-align: center;
+    align-items: center;
+}
+
+/* SEZIONE 1 */
+
+.luna {
+    color: white;
+    font-size: larger;
+    align-items: center;
+    word-spacing: 20px;
+    transform: rotate(-29deg);
+}
+
+.navtext {
+    color: rgb(199, 199, 199);
+    list-style-type: none;
+    text-align: left;
+    font-family: 'Jura', sans-serif;
+    font-size: small;
+}
+
+.section1 {
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 50%, rgb(0, 0, 0) 100%), url(./Black/media/moon.jpg);
+    align-items: center;
+    height: 500px;
+    background-size: cover;
+    display: flex;
+}
+
+.titolo {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+.sottotitolo{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 11px;
+
+}
+
+
+/* SEZIONE 2 */
+
+.freccia1 {
+    color: #2B9DF4;
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 100px;
+}
+
+/* SEZIONE 3 */
+
+.box1 {
+    text-align: center;
+    border-bottom: solid #2B9DF4;
+    border-width: 1px;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.boxtitle {
+    font-size: x-small;
+}
+
+.boxtext {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* SEZIONE 4 */
+
+.section4 {
+    background-image: url(./Black/media/moon2.jpg);
+    align-items: center;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    margin-top: 120px;
+}
+
+h5 {
+    color: #2B9DF4;
+    font-family: 'Jura', sans-serif;
+}
+
+.text4 {
+    color: white;
+    font-family: 'Jura', sans-serif;
+    font-size: small;
+}
+
+
+/* SEZIONE 5 */
+
+.section5 {
+    padding-top: 120px;
+}
+
+.titlecol {
+    border-bottom: solid #2B9DF4;
+    border-width: 1px;
+    padding-bottom: 5px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Jura', sans-serif;
+}
+
+.titletext {
+    margin-top: -6px;
+    font-weight: bold;
+    font-family: 'Jura', sans-serif;
+    padding-bottom: 30px;
+}
+
+.colonne {
+    padding-inline: 100px;
+}
+
+.colicon {
+    color: #2B9DF4;
+    padding-right: 15px;
+}
+
+.titlecolcenter {
+    border-bottom: solid #2B9DF4;
+    border-width: 1px;
+    padding-bottom: 5px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+}
+
+.titletextcenter {
+    margin-top: -6px;
+    font-weight: bold;
+    font-family: 'Jura', sans-serif;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.titlecolright {
+    border-bottom: solid #2B9DF4;
+    border-width: 1px;
+    padding-bottom: 5px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Jura', sans-serif;
+    text-align: right;
+}
+
+.titletextright {
+    margin-top: -6px;
+    font-weight: bold;
+    font-family: 'Jura', sans-serif;
+    padding-bottom: 30px;
+    text-align: right;
+}

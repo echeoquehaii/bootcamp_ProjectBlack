@@ -21,7 +21,6 @@ body {
 .navb {
     background-color: black;
     border-bottom: solid;
-    border-width: ;
     border-color: rgb(199, 199, 199);
     text-align: center;
     align-items: center;
@@ -213,4 +212,42 @@ h5 {
     margin-top: 180px;
     margin-bottom: 180px;
     font-size: large;
+}
+
+/* SEZIONE 7 */
+
+.text7 {
+    color: rgb(199, 199, 199);
+    font-family: 'Jura', sans-serif;
+    font-size: small;
+
+}
+
+.textbox {
+    color: white;
+    border: solid #2B9DF4;
+    width: fit-content;
+    padding-inline: 37px;
+    padding-block: 8px;
+    margin-left: auto;
+}
+
+
+/* SEZIONE 8 */
+
+.section8 {
+    width: 100%;
+}
+
+/* SEZIONE 9*/
+
+.ultimocont {
+    border-bottom: solid;
+    border-color: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(43,157,244,1) 50%, rgba(0,0,0,1) 100%);
+    border-width: 5px;
+        margin-bottom: 50px;
+}
+
+.lasticons {
+    color: white;
 }

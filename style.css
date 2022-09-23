@@ -223,13 +223,56 @@ h5 {
 
 }
 
+.gobox {
+    width: 120px;
+    height: 50px;
+}
+
 .textbox {
     color: white;
-    border: solid #2B9DF4;
-    width: fit-content;
-    padding-inline: 37px;
-    padding-block: 8px;
-    margin-left: auto;
+    font-family: 'Jura', sans-serif;
+    align-items:center;
+    justify-content:center;
+    height: 50px;
+    width: 120px;
+    position: relative;
+}
+
+.leftop {
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    border-top: solid #2B9DF4;
+    border-left: solid #2B9DF4;
+}
+
+.rightop {
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    border-top: solid #2B9DF4;
+    border-right: solid #2B9DF4;
+    right: 0px;
+}
+
+.rightbtm {
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    border-bottom: solid #2B9DF4;
+    border-right: solid #2B9DF4;
+    right: 0px;
+    bottom: 0px;
+}
+
+.lefbtm {
+    height: 12px;
+    width: 12px;
+    position: absolute;
+    border-bottom: solid #2B9DF4;
+    border-left: solid #2B9DF4;
+    bottom: 0px;
+
 }
 
 
@@ -241,13 +284,15 @@ h5 {
 
 /* SEZIONE 9*/
 
-.ultimocont {
-    border-bottom: solid;
-    border-color: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(43,157,244,1) 50%, rgba(0,0,0,1) 100%);
-    border-width: 5px;
-        margin-bottom: 50px;
-}
 
 .lasticons {
     color: white;
+}
+
+.rigafin {
+    margin-bottom: 50px;
+    height: 3px;
+    background-color: #2B9DF4;
+    width: 100%;
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(43,157,244,1) 50%, rgba(0,0,0,1) 100%);;
 }

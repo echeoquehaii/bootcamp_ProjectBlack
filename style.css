@@ -26,8 +26,6 @@ body {
     align-items: center;
 }
 
-/* SEZIONE 1 */
-
 .luna {
     color: white;
     font-size: larger;
@@ -35,6 +33,10 @@ body {
     word-spacing: 20px;
     transform: rotate(-29deg);
 }
+
+/* SEZIONE 1 */
+
+
 
 .navtext {
     color: rgb(199, 199, 199);
@@ -45,11 +47,11 @@ body {
 }
 
 .section1 {
-    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 50%, rgb(0, 0, 0) 100%), url(./Black/media/moon.jpg);
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.5) 50%, rgb(0, 0, 0) 100%), url(./Black/media/moon.jpg);
     align-items: center;
-    height: 500px;
     background-size: cover;
     display: flex;
+    min-height: 100vh;
 }
 
 .titolo {
@@ -280,6 +282,12 @@ h5 {
 
 .section8 {
     width: 100%;
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0, 0, 0, 0.3) 50%, rgb(0, 0, 0) 100%), url(./Black/media/sunrise-1765027_1920.jpg);
+    align-items: center;
+    background-size: cover;
+    display: flex;
+    min-height: 80vh;
+
 }
 
 /* SEZIONE 9*/
@@ -289,10 +297,11 @@ h5 {
     color: white;
 }
 
-.rigafin {
-    margin-bottom: 50px;
+.blueline {
+    margin-bottom: 80px;
+    margin-top: 50px;
     height: 3px;
     background-color: #2B9DF4;
     width: 100%;
-    background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(43,157,244,1) 50%, rgba(0,0,0,1) 100%);;
+    background-image: linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(43,157,244,0.8) 50%, rgba(0,0,0,1) 80%);
 }
